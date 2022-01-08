@@ -1,0 +1,97 @@
+.h_background {
+    background-color: #427AA1;
+    width: 500px;
+    height: 200px;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    z-index: 0;
+    border-radius: 15px;
+    padding: .2em;
+    box-shadow: 5px 5px 5px #555;
+}
+
+.name {
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: 2/4;
+    grid-row: 1/2;
+    z-index: 1;
+    margin-top: 2.5em;
+    margin-left: 2em;
+    color: white;
+    text-shadow: 1px 1px 2px #999;
+}
+
+#content {
+    max-width: 500px;
+    margin: 0 auto;
+}
+header {
+   display: grid;
+   grid-template-columns: auto auto auto;
+}
+
+.h_i {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+    margin: 1em;
+    width: 150px;
+    height: 170px;
+    box-shadow: 5px 5px 5px #555;
+    padding-left: .2em;
+}
+
+.course {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px #999;
+}
+
+.lessons {
+    border-top: 5px double;
+    border-bottom: 5px double;
+    border-color: black;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-size: 20px;
+}
+li {
+    padding: 4px;
+}
+
+.p_1 {
+    font-style: italic;
+    margin-top: -1em;
+}
+footer {
+    display:grid;
+    grid-template-columns: auto auto auto;
+}
+.f_background {
+    background-color: #427AA1;
+    width: 500px;
+    height: 100px;
+    grid-column: 1/4;
+    grid-row: 1/4;
+    z-index: 0;
+    border-radius: 15px;
+    padding: .2em;
+    box-shadow: 5px 5px 5px #555;
+}
+
+.copyright {
+    font-family: Arial, Helvetica, sans-serif;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    z-index: 1;
+    justify-self: center;
+    color: white;
+}
+#java {
+    z-index: 1;
+    grid-column: 1/4;
+    grid-row: 2/3;
+    color: yellow;
+    padding-left: 8.5em;
+}
