@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+.content {
+    max-width: 920px ;
+    margin: 0 auto;
+}
+
+h1, h2, h3, h4, h4, h5, h6 {
+    font-family: "Oswald";
+}
+
+p {
+    font-family: "PT Sans Narrow";
+}
+
+#top {
+    background-color: #427AA1;
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+
+.copyright {
+    background-color: #427AA1;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+.design_principles {
+    width: 270px;
+    background-color: #427AA1;
+    box-shadow: 1px 1px 4px 1px #888;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    overflow: hidden;
+    font-family: arial, sans-serif;
+    margin: 1em;
+}
+.design_principles_3 {
+    width: 270px;
+    background-color: #427AA1;
+    box-shadow: 1px 1px 4px 1px #888;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
+    overflow: hidden;
+    font-family: arial, sans-serif;
+    margin: 1em;
+}
+.a_h {
+  
+    color: white;
+    padding-left: 1em;
+}
+.article_content {
+    padding: 10px;
+    background-color: rgb(230, 228, 228);
+}
+
+img {
+    padding-right: 10px;
+}
+
+.articles {
+    display: grid;
+    grid-template-columns: auto;
+}
+#i_3 {
+    width: 250px;
+}
