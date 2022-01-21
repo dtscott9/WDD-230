@@ -1,8 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Prompt&display=swap');
+
 body {
-    width: 1000px;
+    width: 1050px;
     margin: 0 auto;
 }
 
-h1 {
-    color: hotpink;
+header {
+    text-align: center;
+    background-color: #B3C5D7;
+    color: white;
+    padding: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Prompt, sans-serif;
+
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navigation {
+    font-family: Merriweather;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
 }
