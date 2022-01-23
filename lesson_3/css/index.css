@@ -49,3 +49,7 @@ p {
     background-color: white;
     color: black;
 }
+
+.copyright {
+    padding-left: 1em;
+}
