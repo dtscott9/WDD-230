@@ -53,3 +53,7 @@ p {
 .copyright {
     padding-left: 1em;
 }
+ul li {
+    font-family: Merriweather;
+    padding: 10px;
+}
