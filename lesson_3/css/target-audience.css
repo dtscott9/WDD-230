@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Prompt&display=swap');
+
+body {
+    
+    margin: 0 auto;
+    background-color: #B0BEA9;
+}
+
+main {
+    
+    margin: 0 auto;
+    background-color: white;
+    padding: 1em;
+}
+
+
+header {
+    text-align: center;
+    background-color: #B3C5D7;
+    color: white;
+    padding: 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Prompt, sans-serif;
+
+}
+
+p {
+    font-family: Merriweather, Times, serif;
+    font-size: 17px;
+}
+
+.navigation  {
+    font-family: Merriweather;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    background-color: #B3C5D7;
+    font-family: Prompt, sans-serif;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    background-color: white;
+    color: black;
+}
+
+.copyright {
+    padding-left: 1em;
+}
