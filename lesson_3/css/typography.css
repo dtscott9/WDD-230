@@ -57,7 +57,7 @@ p {
 #prompt {
     font-family: Prompt;
 }
-@media (min-width: 328px) {
+@media screen and (min-width: 328px) {
     .navigation {
         flex-direction: row;
     }

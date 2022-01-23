@@ -59,7 +59,7 @@ ul li {
     padding: 10px;
 }
 
-@media (min-width: 328px) {
+@media screen and (min-width: 328px) {
     .navigation {
         flex-direction: row;
     }

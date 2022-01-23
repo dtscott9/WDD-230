@@ -76,7 +76,7 @@ p {
     background-color: #FFB17A;
     padding: 1em;
 }
-@media (min-width: 328px) {
+@media screen and (min-width: 328px) {
     .navigation {
         flex-direction: row;
     }
