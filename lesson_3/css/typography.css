@@ -35,6 +35,7 @@ p {
     font-family: Merriweather;
     padding: 1em;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     background-color: #B3C5D7;
     font-family: Prompt, sans-serif;
@@ -55,4 +56,9 @@ p {
 }
 #prompt {
     font-family: Prompt;
+}
+@media (min-width: 328px) {
+    .navigation {
+        flex-direction: row;
+    }
 }
