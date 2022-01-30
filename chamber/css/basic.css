@@ -28,13 +28,16 @@ nav ul {
     font-size: 25px;
     font-family: Prompt, sans-serif;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
 }
 nav li {
     display: none;
 }
 
+.responsive li {
+    display: block;
+}
 header {
     background-color: #F39766;
    
@@ -53,11 +56,7 @@ header {
     max-width: 100%;
 }
 
-.menu {
-    grid-column: 2/5;
-    grid-row: 1;
-    padding: 1em;
-}
+
 
 .social {
     grid-column: 3;
@@ -129,6 +128,16 @@ footer {
 }
 
 @media screen and (min-width: 810px) {
+
+    nav ul {
+        list-style: none;
+        font-size: 25px;
+        font-family: Prompt, sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        border: none;
+    }
     #links {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -169,4 +178,13 @@ footer {
         flex-direction: row;
     }
     
+}
+
+@media screen and (min-width: 620px) {
+
+
+    nav li {
+    
+        padding-right: 10px;
+    }
 }
