@@ -102,14 +102,14 @@ footer {
 }
 
 .info {
-    display: flex;
-    flex-direction: column;
+   grid-row: 1;
 }
 
 #phone {
     color: white;
     padding: 1em;
-    justify-self: end;
+    
+    grid-row: 2;
 }
 
 #phone a {
@@ -127,7 +127,39 @@ footer {
     text-align: center;
 }
 
-@media screen and (min-width: 810px) {
+@media screen and (min-width: 460px) {
+
+    #links {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        align-items: center;
+    }
+
+    .social {
+        grid-column: 5;
+    }
+
+    .ham {
+        grid-column: 4;
+    }
+
+    #phone {
+        color: white;
+        padding: 1em;
+        justify-self: end;
+        grid-column: 3;
+        grid-row: 1;
+    }
+    .info {
+        display: flex;
+        flex-direction: row;
+    }
+    
+
+
+}
+
+@media screen and (min-width: 800px) {
 
     nav ul {
         list-style: none;
@@ -177,10 +209,13 @@ footer {
         display: flex;
         flex-direction: row;
     }
+    #phone {
+        color: white;
+        padding: 1em;
+        justify-self: end;
+        grid-row: 1;
+    }
+    
     
 }
 
-@media screen and (min-width: 620px) {
-
-
-}
