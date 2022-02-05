@@ -24,8 +24,15 @@ function btnLink() {
 
 joinBtn.addEventListener("click", btnLink);
 
+let mydate = new Date();
+
 const message = document.querySelector('.msg');
+const message1 = document.querySelector('.default');
 
 if (mydate.getDay() == 1 || mydate.getDay() == 2) {
-	message.style.display = 'block'
-};
+	message.style.display = 'block';
+}
+
+else {
+	message1.style.display = "block";
+}
