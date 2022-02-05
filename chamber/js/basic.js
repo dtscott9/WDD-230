@@ -16,6 +16,14 @@ const navi = document.querySelector("ul");
 menuButton.addEventListener("click", () =>
 {navi.classList.toggle("responsive")}, false);
 
+const joinBtn = document.querySelector(".btn");
+
+function btnLink() {
+	location.href = "join.html";
+}
+
+joinBtn.addEventListener("click", btnLink);
+
 const message = document.querySelector('.msg');
 
 if (mydate.getDay() == 1 || mydate.getDay() == 2) {
