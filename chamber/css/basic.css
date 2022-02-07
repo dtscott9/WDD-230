@@ -2,6 +2,8 @@
 
 body {
     background-image: url("../images/mainBackground.jpg");
+    margin: 0 auto;
+    overflow-x: hidden;
 }
 
 
