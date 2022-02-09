@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Prompt&display=swap');
+
+
+body {
+    margin: 0 auto;
+}
+
+.demonstration {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    width: 300px;
+    margin: 0 auto;
+    padding: 1em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    font-family: Prompt;
+    background-color: aquamarine;
+}
+
+.demonstration2 {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    width: 300px;
+    margin: 0 auto;
+    padding: 1em;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    font-family: Prompt;
+    background-color: #F39766;
+    color: white;
+    display: none;
+}
+
+button {
+    background-color: white;
+    font-family: Prompt;
+    width: 125px;
+    height: 50px;
+}
