@@ -22,6 +22,10 @@ function btnLink() {
 	location.href = "join.html";
 }
 
+const btn2 = document.querySelector(".btn2");
+
+btn2.addEventListener("click", btnLink);
+
 joinBtn.addEventListener("click", btnLink);
 
 let mydate = new Date();
