@@ -36,3 +36,13 @@ if (mydate.getDay() == 1 || mydate.getDay() == 2) {
 else {
 	message1.style.display = "block";
 }
+
+let chill = document.querySelector("#chill");
+let temp = 48;
+let wSpeed = 2;
+
+var windChill= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wSpeed,0.16)) + (0.4275*temp*Math.pow(wSpeed,0.16));
+
+var windChill= Math.round(windChill);
+
+chill.textContent = windChill;
