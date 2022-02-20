@@ -139,7 +139,6 @@ main {
 }
 
 main img {
-    margin: 10px auto;
     display: block;
 }
 .rowA {
@@ -164,44 +163,52 @@ main img {
 }
 .head {
     color: black;
-    position: relative;
-    top: -90%;
-    opacity: 0;
     transition: .5s ease;
     left: 27%;
     z-index: 1;
     padding: 10px;
-
+    grid-row: 1/1;
+    grid-column: 3/4;
+    opacity: 0;
+    text-decoration: none;
 }
 
 .text {
-    position: relative;
-    top: -70%;
-    left: -1%;
     color: black;
-    opacity: 0;
+    opacity: 0; 
     transition: .5s ease;
     text-align: center;
     z-index: 1;
     padding: 10px;
+    grid-row: 3/4;
+    grid-column: 2/5;
+    text-decoration: none;
 }
 
 
 .image {
     width: 300px;
     height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background-color: white;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
 }
 .image img {
     opacity: 1;
     transition: .5s ease;
-    width: 300px;
-    height: 300px;
     z-index: 0;
+    grid-column: 1/5;
+    grid-row: 1/5;
 
     
 }
 .image:hover .text, .image:hover .head{
     opacity: 1;
+    text-decoration: none;
 }
 
 .image:hover img {
@@ -209,6 +216,7 @@ main img {
 }
 .image:hover {
     background-color: white;
+    text-decoration: none;
 }
 
 @media screen and (min-width: 475px) {
