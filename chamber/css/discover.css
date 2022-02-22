@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Prompt&display=swap');
 
 body {
-    background-image: url("../images/mainBackground.jpg");
+    background-image: url("../images/mainBackground_l.jpg");
     margin: 0 auto;
     overflow-x: hidden;
 }
@@ -134,32 +134,40 @@ footer {
     padding: 5px;
     text-align: center;
 }
-main {
+.discover {
     padding: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+main {
+    padding: 1em;
+    text-align: center;
+}
+.discover img {
+    display: block;
+    
 }
 
-main img {
-    display: block;
-}
 .rowA {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 15px;
-    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
 }
 .rowB {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 15px;
-    justify-content: center;
+    align-items: center;
     margin-bottom: 20px;
 }
 .rowC {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 15px;
-    justify-content: center;
+    align-items: center;
 }
 .head {
     color: black;
@@ -249,6 +257,12 @@ a {
 }
 
 @media screen and (min-width: 800px) {
+    body {
+        background-image: url("../images/mainBackground.jpg");
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+    
 
     nav ul {
         list-style: none;
@@ -303,6 +317,26 @@ a {
         padding: 1em;
         justify-self: end;
         grid-row: 1;
+    }
+    .rowA {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .rowB {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .rowC {
+        display: flex;
+        flex-direction: row;
+        gap: 15px;
+        justify-content: center;
     }
 
     
