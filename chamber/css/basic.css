@@ -137,7 +137,7 @@ footer {
 
 .layout {
     background-color: #c0c0c0;
- 
+    justify-content: center;
     padding: 10px;
     margin: 10px;
   
@@ -147,8 +147,8 @@ main {
     padding: 1em;
     grid-template-columns: repeat(7);
     grid-gap: 10px;
-   justify-items: center;
-   align-items: center;
+    justify-items: center;
+    align-items: center;
    
 }
 

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Practice</title>
+</head>
+<body>
+    <form method="get" action="thankyou.html">
+        <label id="fname">First Name:</label>
+        <input id="fname" name="firstname" required>
+        <label for="phone" name="phone">Phone Number:</label>
+        <input id="phone" type="tel" name="phone" value="208-555-5555">
+        <label for="message">Give us a message:</label>
+        <textarea id="message"></textarea>
+        <input type="hidden" name="todaydate" value="CurrentDate">
+        <label for="level">Enter your level of membership</label>
+        <input id="level" name="memlevel">
+            <datalist id="level" = "level1"></datalist>
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>

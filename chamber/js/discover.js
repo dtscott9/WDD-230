@@ -25,7 +25,6 @@ if ("IntersectionObserver" in window) {
                 const lazy = entry.target;
 
                 lazy.src = lazy.dataset.src;
-                lazy.onload = () => lazy.previousElementSibling.remove();
                 imageObsever.unobserve(lazy);
             }
         });
