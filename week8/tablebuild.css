@@ -9,6 +9,7 @@ table {
     border-color: black;
     border-collapse: collapse;
     font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 5px 5px 5px #555;
 }
 
 table caption {
@@ -16,6 +17,7 @@ table caption {
     padding: 10px;
     font-size: 25px;
     background-color: #84DCC6;
+    box-shadow: 5px 5px 5px #555;
 }
 
 table th {
