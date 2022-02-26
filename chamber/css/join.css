@@ -183,6 +183,7 @@ select {
     margin: 1em;
     border-radius: 15px;
     grid-column: 2/3;
+    display: none;
 }
 
 #bronze {
@@ -230,6 +231,16 @@ select {
     .info {
         display: flex;
         flex-direction: row;
+    }
+
+    .membership {
+        padding: 1em;
+        background-color: #B3C5D7;
+        width: 100%;
+        margin: 1em;
+        border-radius: 15px;
+        grid-column: 2/3;
+        display: block;
     }
 }
 
