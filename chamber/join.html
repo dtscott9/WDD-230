@@ -60,12 +60,13 @@
             <label for="Phone">Phone*</label>
             <input type="tel" id="phone1" name="phone" placeholder="555-555-5555" required>
             <label for="memlevel">Membership level</label>
-            <select name="memlevel" id="memlevel">
-                <option value="npMembership">Non Profit Membership</option>
-                <option value="bronzeMembership">Bronze Membership</option>
-                <option value="silMembership">Silver Membership</option>
-                <option value="goldMembership">Gold Membership</option>
-            </select>
+            <input list="memlevel">
+            <datalist name="memlevel" id="memlevel">
+                <option value="Non Profit Membership">No fee</option>
+                <option value="Bronze Membership">$50/Mo 10% advertising discount</option>
+                <option value="Silver Membership">$100/Mo 15% advertising discount</option>
+                <option value="Gold Membership">$250/Mo 50% advertising discount</option>
+            </datalist>
             <label for="busDes">Business Description</label>
             <textarea name="busDes" required></textarea>
             <input id="date" type="hidden" name="todaysdate">
