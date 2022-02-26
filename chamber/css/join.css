@@ -154,7 +154,7 @@ footer {
     font-size: 10px;
 }
 
-label, input, textarea {
+.fillOut label, input, textarea {
     display: block;
     width: 22.5em;
     height: 25px;
