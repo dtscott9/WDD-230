@@ -33,3 +33,7 @@ if ("IntersectionObserver" in window) {
     lazyImages.forEach(img => imageObsever.observe(img));
 
 }
+
+let date1 = new Date();
+
+document.querySelector("#date").value = date1;

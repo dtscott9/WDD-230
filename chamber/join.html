@@ -4,9 +4,132 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>join</title>
+    <meta name="description" content="Home Page for Chamber of Commerce">
+    <link rel="stylesheet" href="css/join.css"/>
+    <link rel="icon" href="images/tiny_icon.png"/>
+    <title>Join</title>
 </head>
 <body>
-    <h1>This page will let users join the chamber of commerce</h1>
+    <header>
+        <div id="links">
+        <div class="logo_box">
+            <a href="index.html"><img id="logo" src="images/Grand_Canyon_Commerce-logos.webp" 
+            alt="Grand Canyon Commerce logo"/></a>
+        </div>
+
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li class="responsive"></li>
+                    <li><a href="discover.html">Discover</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="social">
+            <a href="https://www.facebook.com/">
+                <img src="images/facebook.jpg" alt="Facebook logo"/>
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram.jpg" alt="Instagram logo"/>
+            </a>
+            <a href="https://twitter.com/?lang=en">
+                <img src="images/twitter.jpg" alt="Twitter logo"/>
+            </a>
+        </div>
+        <a class="ham" href="#">&#9776;</a>
+        </div>
+        <h2 id="date"></h2>
+    </header>
+    <main>
+     <div class="fillOut">
+         <p class="required">* Indicates require field</p>
+         <form>
+            <label for="fname">First Name*</label>
+            <input type="text" id="fname" name="fname" placeholder="John" required>
+            <label for="lname">Last Name*</label>
+            <input type="text" id="lname" name="lname" placeholder="Doe" required>
+            <label for="Business">Business Name</label>
+            <input type="text" id="bname" name="bname" placeholder="Business Name">
+            <label for="email">Email*</label>
+            <input type="email" id="email" name="email" placeholder="example@email.com" required>
+            <label for="Phone">Phone*</label>
+            <input type="tel" id="phone1" name="phone" placeholder="555-555-5555">
+            <label for="memlevel">Membership level</label>
+            <select name="memlevel" id="memlevel">
+                <option value="npMembership">Non Profit Membership</option>
+                <option value="bronzeMembership">Bronze Membership</option>
+                <option value="silMembership">Silver Membership</option>
+                <option value="goldMembership">Gold Membership</option>
+            </select>
+            <label for="busDes">Business Description</label>
+            <textarea name="busDes"></textarea>
+            <input id="date" type="hidden" name="todaysdate">
+            <input id="submit" type="submit" value="Submit">
+         </form>
+     </div>
+     <div class="membership">
+         <div>
+             <h1>Membership Levels Benefits</h1>
+             <h3>Non Profit Membership</h3>
+             <ul>
+                 <li>For non profit organizations and there is no fee</li>
+             </ul>
+             <h3><span id="bronze">Bronze</span> Membership</h3>
+             <ul>
+                 <li>
+                    15% discount on events
+                 </li>
+                 <li>10% discount on advertising</li>
+                 <li>Fee of $50/month</li>
+             </ul>
+             <h3><span id="silver">Silver</span> Membership</h3>
+             <ul>
+                 <li>25% discount on events</li>
+                 <li>15% discount on advertising</li>
+                 <li>Free participation in the trade fair</li>
+                 <li>Fee of $100/month</li>
+             </ul>
+             <h3><span id="gold">Gold</span> Membership</h3>
+             <ul>
+                 <li>50% discount on events</li>
+                 <li>50% discount on advertising</li>
+                 <li>Free participation in the trade fair</li>
+                 <li>5 free featured ads per year</li>
+                 <li>1 free training per quarter</li>
+                 <li>Fee of $250/month</li>
+             </ul>
+         </div>
+     </div>
+    </main>
+    <footer>
+        <div class="contact">
+        <div class="info">
+            <img class="logo_2" src="images/Grand_Canyon_Commerce-logos.webp" alt="Company logo"/>
+            <p id="address">Gran Canyon Commerce<br>
+            1057 N Albright Ave <br>
+            Grand Canyon, AZ, 86023</p>
+        </div>
+        <div id="phone">
+            <p>info@canyoncommerce.org<br>
+            (928) 867-5309<br>
+            <img src="images/1x/outline_room_black_24dp.png" alt="map icon">
+            <a href="https://goo.gl/maps/LtbZEoxpU8MiEDgn6">Google Maps</a>
+        </p>
+        </div>
+        </div>
+        <hr id="break" />
+        <div class="personal">
+            <label class="copyright">
+                &copy; 2022 | Dylan Scott | Arizona | Last Modified: 
+            </label>
+            <span id="modified"></span> 
+        </div>
+
+    </footer>
+    <script src="js/discover.js"></script>
 </body>
 </html>
