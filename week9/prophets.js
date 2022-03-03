@@ -39,5 +39,5 @@ document.querySelector('div.cards').appendChild(card);
 
 // changing styles in js
 
-let change = document.querySelector('.cards');
-change.setAttribute('style', 'background-color: pink;');
+// let change = document.querySelector('.cards');
+// change.setAttribute('style', 'background-color: pink;');
