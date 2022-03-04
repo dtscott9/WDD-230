@@ -227,6 +227,10 @@ a {
     text-decoration: none;
 }
 
+.cards a {
+    font-size: 10px;
+}
+
 @media screen and (min-width: 475px) {
 
     #links {
