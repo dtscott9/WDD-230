@@ -1,0 +1,88 @@
+{
+    "businesses": [
+        {
+            "logo": "images/businesses/BAB_2012_Logo.png",
+            "name": "Bright Angel Bicycles & Mather Point Café",
+            "Address":"10 S Entrance Rd, Grand Canyon Village, AZ 86023",
+            "Phone": "(928) 638-3055",
+            "Website": "https://bikegrandcanyon.com/"
+        },
+        {
+            "logo": "images/GCC_Logo_Shopify_250x.png",
+            "name": "Grand Canyon Conservancy",
+            "Address":"6 S Entrance Rd, Grand Canyon Village, AZ 86023",
+            "Phone": "(928) 638-2481",
+            "Website": "https://shop.grandcanyon.org/"
+        },
+        {
+            "logo": "images/businesses/yavapai_tavern.png",
+            "name": "Yavapai Tavern",
+            "Address":"11 Yavapai Lodge Rd, Grand Canyon Village, AZ 86023",
+            "Phone": "(928) 638-4001",
+            "Website": "https://www.visitgrandcanyon.com/dining-and-shopping/yavapai-tavern"
+        },
+        {
+            "logo": "images/businesses/trading_post.png",
+            "name": "Historic Cameron Trading Post",
+            "Address":"466 HWY 89 Cameron, AZ 86020",
+            "Phone": "1-800-338-7385",
+            "Website": "https://camerontradingpost.com/"
+        },
+        {
+            "logo": "images/businesses/mariposa.png",
+            "name": "Mariposa Consulting",
+            "Address":"1100 Albright Ave, Grand Canyon Village, AZ, 86023",
+            "Phone": "(804) 424-2442",
+            "Website": "https://mariposaconsulting.co/"
+        },
+        {
+            "logo": "images/businesses/kolb_studio.jpg",
+            "name": "Kolb Studio",
+            "Address":"10 S Entrance Rd, Grand Canyon Village, AZ 86023",
+            "Phone": "(928) 638-3055",
+            "Website": "https://bikegrandcanyon.com/"
+        },
+        {
+            "logo": "images/BAB_2012_Logo.png",
+            "name": "Bright Angel Bicycles & Mather Point Café",
+            "Address":"10 S Entrance Rd, Grand Canyon Village, AZ 86023",
+            "Phone": "(928) 638-3055",
+            "Website": "https://bikegrandcanyon.com/"
+        },
+        {
+            "logo": "images/BAB_2012_Logo.png",
+            "name": "Bright Angel Bicycles & Mather Point Café",
+            "Address":"10 S Entrance Rd, Grand Canyon Village, AZ 86023",
+            "Phone": "(928) 638-3055",
+            "Website": "https://bikegrandcanyon.com/"
+        },
+        {
+            "logo": "images/BAB_2012_Logo.png",
+            "name": "Bright Angel Bicycles & Mather Point Café",
+            "Address":"10 S Entrance Rd, Grand Canyon Village, AZ 86023",
+            "Phone": "(928) 638-3055",
+            "Website": "https://bikegrandcanyon.com/"
+        },
+        {
+            "logo": "images/BAB_2012_Logo.png",
+            "name": "Bright Angel Bicycles & Mather Point Café",
+            "Address":"10 S Entrance Rd, Grand Canyon Village, AZ 86023",
+            "Phone": "(928) 638-3055",
+            "Website": "https://bikegrandcanyon.com/"
+        },
+        {
+            "logo": "images/BAB_2012_Logo.png",
+            "name": "Bright Angel Bicycles & Mather Point Café",
+            "Address":"10 S Entrance Rd, Grand Canyon Village, AZ 86023",
+            "Phone": "(928) 638-3055",
+            "Website": "https://bikegrandcanyon.com/"
+        },
+        {
+            "logo": "images/BAB_2012_Logo.png",
+            "name": "Bright Angel Bicycles & Mather Point Café",
+            "Address":"10 S Entrance Rd, Grand Canyon Village, AZ 86023",
+            "Phone": "(928) 638-3055",
+            "Website": "https://bikegrandcanyon.com/"
+        }
+    ]
+}
