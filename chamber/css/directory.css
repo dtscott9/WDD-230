@@ -187,9 +187,9 @@ main {
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
     body {
-        background-image: url("../images/mainBackground.jpg");
+        background-image: url("../images/mainBackground_l.jpg");
         margin: 0 auto;
         overflow-x: hidden;
     }

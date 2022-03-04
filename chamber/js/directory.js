@@ -1,3 +1,29 @@
+const date = new Date();
+const currDate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+	date
+);
+
+document.getElementById("date").textContent = currDate;
+
+let mod = document.lastModified
+
+document.getElementById("modified").textContent = mod
+;
+
+const menuButton = document.querySelector(".ham");
+const navi = document.querySelector("ul");
+
+menuButton.addEventListener("click", () =>
+{navi.classList.toggle("responsive")}, false);
+
+const joinBtn = document.querySelector(".btn");
+
+
+
+
+
+
+
 const url = "https://dtscott9.github.io/WDD-230/chamber/data/directory.json";
 
 fetch(url)
@@ -38,4 +64,4 @@ card.appendChild(web);
 
 // Add/append the existing HTML div with the cards class with the section(card)
 document.querySelector('div.cards').appendChild(card);
-}
+};

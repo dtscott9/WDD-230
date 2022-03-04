@@ -43,46 +43,46 @@
             "Website": "https://bikegrandcanyon.com/"
         },
         {
-            "logo": "images/BAB_2012_Logo.png",
-            "name": "Bright Angel Bicycles & Mather Point Café",
-            "Address":"10 S Entrance Rd, Grand Canyon Village, AZ 86023",
-            "Phone": "(928) 638-3055",
-            "Website": "https://bikegrandcanyon.com/"
+            "logo": "images/businesses/el_tovar.jpg",
+            "name": "El Tovar",
+            "Address":"1 El Tovar Rd, Grand Canyon Village, AZ 86023",
+            "Phone": "(928) 638-2631",
+            "Website": "https://www.grandcanyonlodges.com/dine/el-tovar-dining-room-and-lounge/"
         },
         {
-            "logo": "images/BAB_2012_Logo.png",
-            "name": "Bright Angel Bicycles & Mather Point Café",
-            "Address":"10 S Entrance Rd, Grand Canyon Village, AZ 86023",
-            "Phone": "(928) 638-3055",
-            "Website": "https://bikegrandcanyon.com/"
+            "logo": "images/businesses/maswik.jpg",
+            "name": "Maswik Lodge",
+            "Address":"202 Village Loop Drive, Grand Canyon Village, AZ 86023",
+            "Phone": "(928) 638-2631",
+            "Website": "https://www.grandcanyonlodges.com/lodging/maswik-lodge/"
         },
         {
-            "logo": "images/BAB_2012_Logo.png",
-            "name": "Bright Angel Bicycles & Mather Point Café",
-            "Address":"10 S Entrance Rd, Grand Canyon Village, AZ 86023",
-            "Phone": "(928) 638-3055",
-            "Website": "https://bikegrandcanyon.com/"
+            "logo": "images/businesses/gc_chocolate.jpg",
+            "name": "Grand Canyon Chocolate Factory",
+            "Address":"469 AZ-64 Suite F, Grand Canyon Village, AZ 86023",
+            "Phone": "(928) 853-9753",
+            "Website": "https://grandcanyoncvb.org/dining/grand-canyon-chocolate-factory/"
         },
         {
-            "logo": "images/BAB_2012_Logo.png",
-            "name": "Bright Angel Bicycles & Mather Point Café",
-            "Address":"10 S Entrance Rd, Grand Canyon Village, AZ 86023",
-            "Phone": "(928) 638-3055",
-            "Website": "https://bikegrandcanyon.com/"
+            "logo": "images/businesses/aspen.webp",
+            "name": "Aspen Graphics Company",
+            "Address":"866 S Albany Way, Grand Canyon Village, AZ 86023",
+            "Phone": "(928) 235-5654",
+            "Website": "https://aspengraphicsco.com/"
         },
         {
-            "logo": "images/BAB_2012_Logo.png",
-            "name": "Bright Angel Bicycles & Mather Point Café",
-            "Address":"10 S Entrance Rd, Grand Canyon Village, AZ 86023",
-            "Phone": "(928) 638-3055",
-            "Website": "https://bikegrandcanyon.com/"
+            "logo": "images/businesses/visitor.png",
+            "name": "Grand Canyon Chamber & Visitors Bureau",
+            "Address":"469 AZ-64, Grand Canyon Village, AZ 86023",
+            "Phone": "(928) 638-2901",
+            "Website": "https://grandcanyoncvb.org/"
         },
         {
-            "logo": "images/BAB_2012_Logo.png",
-            "name": "Bright Angel Bicycles & Mather Point Café",
-            "Address":"10 S Entrance Rd, Grand Canyon Village, AZ 86023",
-            "Phone": "(928) 638-3055",
-            "Website": "https://bikegrandcanyon.com/"
+            "logo": "images/businesses/bundle.png",
+            "name": "BundleShipSave",
+            "Address":"577 N Brighams St, Grand Canyon Village, AZ 86023",
+            "Phone": "(928) 224-9462",
+            "Website": "https://www.bundleshipsave.com/"
         }
     ]
 }
