@@ -26,10 +26,12 @@ address.textContent = business.Address;
 
 
 // Add/append the section(card) with the h2 element
-card.appendChild(h2);
-card.appendChild(phone);
-card.appendChild(address);
 card.appendChild(img);
+card.appendChild(h2);
+card.appendChild(address);
+card.appendChild(phone);
+
+
 // Add/append the existing HTML div with the cards class with the section(card)
 document.querySelector('div.cards').appendChild(card);
 }
