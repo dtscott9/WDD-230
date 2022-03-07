@@ -214,13 +214,14 @@ main {
     background-color: #B3C5D7;
     height: 250px;
     width: 100%;
-    background-image: url("../images/sam-schooler-E9aetBe2w40-unsplash\(1\).jpg");
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 .wind {
     font-family: Prompt;
     text-align: left;
+}
+
+figcaption {
+    font-family: Prompt;
 }
 
 #c{
@@ -264,6 +265,10 @@ main {
     background-color: #B0F2B4;
     font-family: Prompt, sans-serif;
     font-size: 10px;
+}
+
+#iconText {
+    display: none;
 }
 @media screen and (min-width: 475px) {
 
