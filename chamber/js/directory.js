@@ -36,11 +36,21 @@ fetch(url)
     businesses.forEach(displayBusinesses);
   });
 
+  
+fetch(url)
+.then(function (response) {
+  return response.json();
+})
+.then(function (jsonObject) {
+  console.table(jsonObject); 
+  const businesses = jsonObject['businesses'];
+  businesses.forEach(displayDirectory);
+});
 
 
-function displayBusinesses(business) {  // Create elements to add to the document
+function displayBusinesses(business) {  
 let card = document.createElement('section');
-let h2 = document.createElement('h2');    // Change the textContent property of the h2 element to contain the prophet's full name
+let h2 = document.createElement('h2');   
 let phone = document.createElement('p');
 let address = document.createElement('p');
 let web = document.createElement('a')
@@ -54,7 +64,6 @@ web.textContent = business.Website;
 web.setAttribute('href', business.Website)
 
 
-// Add/append the section(card) with the h2 element
 card.appendChild(img);
 card.appendChild(h2);
 card.appendChild(address);
@@ -62,6 +71,53 @@ card.appendChild(phone);
 card.appendChild(web);
 
 
-// Add/append the existing HTML div with the cards class with the section(card)
+
 document.querySelector('div.cards').appendChild(card);
 };
+
+function displayDirectory(business) {  
+  let row = document.createElement('tr');
+  let busName = document.createElement('td');
+  let busAddress = document.createElement('td');   
+  let busPhone = document.createElement('td');
+  let busWeb = document.createElement('td')
+  let busLink = document.createElement('a');
+  busName.textContent = business.name;
+  busPhone.textContent = business.Phone;
+  busAddress.textContent = business.Address;
+  busLink.textContent = business.Website;
+  busLink.setAttribute('href', business.Website)
+  
+  busWeb.appendChild(busLink);
+  row.appendChild(busName);
+  row.appendChild(busAddress);
+  row.appendChild(busPhone);
+  row.appendChild(busWeb);
+  
+  
+  
+  document.querySelector('table.directory').appendChild(row);
+  };
+
+  const gridButton = document.querySelector(".gridBut");
+  const listButton = document.querySelector(".listBut");
+  const grid = document.querySelector(".cards");
+  const list = document.querySelector(".directory");
+
+  function listView() {
+      grid.style.display = 'none';
+      list.style.display = 'block';
+      
+  }
+
+  function gridView() {
+      list.style.display = 'none';
+      grid.style.display = 'flex';
+  
+      
+      
+    
+  }
+  gridButton.addEventListener("click", gridView);
+  listButton.addEventListener("click", listView);
+  
