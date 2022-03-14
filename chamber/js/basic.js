@@ -41,7 +41,7 @@ else {
 	message1.style.display = "block";
 }
 
-// let chill = document.querySelector("#chill");
+let chill = document.querySelector("#chill");
 let temp = document.querySelector("#temp");
 let wSpeed = document.querySelector("windS");
 
@@ -54,7 +54,7 @@ fetch(url)
     console.log(jsObject);
     document.querySelector('#temp').textContent = ((jsObject.main.temp - 273.15) * 1.8 + 32).toFixed(1);
 	document.querySelector('#windS').textContent = jsObject.wind.speed;
-	document.querySelector('#chill').textContent = jsObject.wind.deg;
+
 
 const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
 const desc = jsObject.weather[0].description;
@@ -65,8 +65,8 @@ document.querySelector('figcaption').textContent = desc;
 });
 
 
-// var windChill= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wSpeed,0.16)) + (0.4275*temp*Math.pow(wSpeed,0.16));
+var windChill= (35.74 + (0.6215 * temp))-(35.75 * Math.pow(wSpeed,0.16)) + (0.4275*temp*Math.pow(wSpeed,0.16));
 
-// var windChill= Math.round(windChill);
+var windChill= Math.round(windChill);
 
-// chill.textContent = windChill;
+chill.textContent = windChill;

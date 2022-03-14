@@ -75,6 +75,8 @@ card.appendChild(web);
 document.querySelector('div.cards').appendChild(card);
 };
 
+var x = window.matchMedia("(max-width: 740px)")
+
 function displayDirectory(business) {  
   let row = document.createElement('tr');
   let busName = document.createElement('td');
@@ -85,7 +87,12 @@ function displayDirectory(business) {
   busName.textContent = business.name;
   busPhone.textContent = business.Phone;
   busAddress.textContent = business.Address;
+  if (x.matches) {
+  busLink.textContent = 'Website';
+  }
+  else {
   busLink.textContent = business.Website;
+  }
   busLink.setAttribute('href', business.Website)
   
   busWeb.appendChild(busLink);
