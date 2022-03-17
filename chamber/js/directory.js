@@ -114,16 +114,11 @@ function displayDirectory(business) {
   function listView() {
       grid.style.display = 'none';
       list.style.display = 'block';
-      
   }
 
   function gridView() {
       list.style.display = 'none';
       grid.style.display = 'flex';
-  
-      
-      
-    
   }
   gridButton.addEventListener("click", gridView);
   listButton.addEventListener("click", listView);
