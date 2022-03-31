@@ -81,6 +81,7 @@ nav {
 
 .responsive li {
     display: block;
+    position: sticky;
 }
 
 .links li a {
