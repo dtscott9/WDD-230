@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Source+Sans+Pro&display=swap');
+
+/* Home and Mobie View */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Oswald;
+}
+
+p {
+    font-family: Source Sans Pro;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #162f57;
+}
+main {
+    background-color: white;
+    margin-top: -5px;
+    text-align: center;
+}
+.purpose {
+    padding: 1em;
+}
+
+header {
+    background-color: #EFEFEF;
+}
+.logo {
+    display: block;
+    justify-self: center;
+    width: 200px;
+    position: relative;
+}
+
+.login {
+    border-style: solid;
+    border-color: black;
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    justify-self: end;
+    margin: 10px;
+    cursor: pointer;
+    font-family: Source Sans Pro;
+}
+
+.topHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em;
+    align-items: center;
+}
+
+.ham {
+    color: white;
+    text-decoration: none;
+    justify-self: end;
+    padding: 1em;
+    font-size: 20px;
+}
+nav {
+    background-color: #162f57;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    margin: 0;
+    padding: 0;
+}
+
+.links {
+    list-style: none;
+    justify-content: center;
+}
+
+.links li{
+    display: block;
+    padding: 10px 20px;
+    display: none;
+}
+
+.responsive li {
+    display: block;
+    position: sticky;
+}
+
+.links li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: Source Sans Pro;
+}
+
+.links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.links li a:hover {
+    color: black;
+    background-color: white;
+    padding: 10px;
+}
+
+footer {
+    background-image: linear-gradient(#162f57, #162f57, white);
+}
+
+#break {
+    background-color: white;
+}
+
+.logo_2 {
+    width: 150px;
+}
+
+#address {
+    color: white;
+    padding: 10px;
+}
+
+.info {
+   grid-row: 1;
+}
+
+#contact {
+    color: white;
+    padding: 1em;
+    justify-self: end;
+    grid-row: 1;
+}
+
+#contact a {
+    color: white;
+}
+
+.footerTop {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    align-content: center;
+}
+
+.footerBottom {
+    padding: 5px;
+    text-align: center;
+}
+
+.copyright {
+    color: black;
+}
+
+.logo_2 {
+    padding: 10px;
+}
+.layout {
+    padding: 1em;
+}
+
+.banner {
+    width: 100%;
+    /* height: 600px; */
+}
+/* HUMAN RESOURCES */
+
+
+/* EMPLOYEE BENEFITS */
+
+/* RISK MANAGEMENT */
+
+
+/* RECRUITMENT SOLUTIONS */
+
+/* CONTACT US */
+
+
+
+/*Desktop View */
+@media screen and (min-width: 800px) {
+
+    .topHeader {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1em;
+        align-items: center;
+    }
+    nav {
+        background-color: #162f57;
+        position: sticky;
+        top: 0;
+        z-index: 100;
+        margin: 0;
+        padding: 0;
+    }
+    .links li{
+        display: inline-block;
+        padding: 10px 20px;
+    }
+    .ham {
+        display: none;
+    }
+    .logo {
+        display: block;
+        justify-self: center;
+        width: 400px;
+        position: relative;
+        left: 35%;
+    }
+    
+
+}
