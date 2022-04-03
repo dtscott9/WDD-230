@@ -246,6 +246,10 @@ footer {
     justify-content: center;
 }
 
+.ourSolutions a {
+  text-decoration: none;
+}
+
 .rowA {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
