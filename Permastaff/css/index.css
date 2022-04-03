@@ -243,6 +243,44 @@ footer {
 
 .ourSolutions {
     padding: 1em;
+    justify-content: center;
+}
+
+.rowA {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+.rowB {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin: 10px;
+}
+
+.solution {
+    background-color: #555;
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+    align-items: center;
+}
+
+.solution h2 {
+    z-index: 2;
+    grid-column: 1;
+    grid-row: 1/2;
+    color: white;
+}
+.solution img {
+    width: 100%;
+    z-index: 1;
+    grid-column: 1;
+    grid-row: 1/2;
 }
 /* HUMAN RESOURCES */
 
@@ -306,5 +344,14 @@ footer {
       display: block;
     box-shadow: 5px 5px 5px #555;;
 }
+.solution {
+    background-color: #555;
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
   
 }
