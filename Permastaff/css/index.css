@@ -343,6 +343,35 @@ footer {
 }
 /* EMPLOYEE BENEFITS */
 
+#bannerP3 {
+  opacity: 0.6;
+}
+.benefitsContent {
+  padding: 1em;
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.benefitsContent ul li {
+  font-family: Source Sans Pro;
+}
+
+.riskContent {
+  display: grid;
+  padding: 1em;
+  grid-template-columns: auto;
+  justify-items: center;
+}
+
+.riskContent img {
+  box-shadow: 5px 5px 5px #555;
+  max-width: 100%;
+}
+
+.riskContent ul li {
+  font-family: Source Sans Pro;
+}
+
 /* RISK MANAGEMENT */
 
 /* RECRUITMENT SOLUTIONS */
@@ -479,5 +508,20 @@ footer {
   .payrollContent {
     font-size: 18px;
     width: 70%;
+  }
+
+  /* EMPLOYEE BENEFITS */
+  .benefitsContent {
+    padding: 80px 1em;
+    font-size: 20px;
+    width: 60%;
+    margin: 0 auto;
+    grid-template-columns: auto auto;
+  }
+  .riskContent {
+    padding: 80px 1em;
+    font-size: 20px;
+    grid-template-columns: auto auto;
+    align-items: center;
   }
 }
