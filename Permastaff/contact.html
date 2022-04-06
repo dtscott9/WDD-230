@@ -30,11 +30,58 @@
           ><button class="login">SIGN IN</button></a
         >
       </div>
-      <button class="bannerButton">Contact Us</button>
-      <img class="banner" src="images/possible_banner.jpg" alt="cityscape" />
     </header>
     <main>
-    
+      <div class="contactUsContent">
+        <div id="message">
+          <h1>We Want To Hear From You</h1>
+          <h3>
+            Fill out the form below and we will get back to you within one
+            business day
+          </h3>
+        </div>
+        <img id="contactImg" src="images/phoenixAz.jpg" alt="Contact Us" />
+        <form id="contactForm">
+          <div id="row1">
+            <label for="name">Name<span class="required">*</span></label>
+            <input type="text" id="name" name="name" required />
+            <label for="email">Email<span class="required">*</span></label>
+            <input type="text" id="email" name="email" required />
+            <label for="phone">Phone<span class="required">*</span></label>
+            <input type="tel" id="phone" name="phone" />
+            <label for="company_name">Company Name</label>
+            <input type="text" id="company_name" name="company_name" />
+          </div>
+          <div id="row2">
+            <label for="company_phone">Company Phone Number</label>
+            <input type="tel" id="company_phone" name="company_phone" />
+            <label for="inquiry">How can we help you?</label>
+            <textarea name="inquiry" maxlength="300"></textarea>
+            <label for="comments">How did you hear about us?</label>
+            <textarea name="comments" maxlength="300"></textarea>
+            <input type="submit" id="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+      <div class="mapInfo">
+        <p>
+          <strong>PermaStaff</strong><br />
+          1818 E. Southern Ave, Suite #1A<br />
+          Mesa, AZ 85204<br />
+          info@permastaff.com<br />
+          480-396-6094
+        </p>
+        <iframe
+        id="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.1118744672685!2d-111.79381438480215!3d33.39424538079007!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872ba893f9781259%3A0x9ee59f4613ad2927!2s1818%20E%20Southern%20Ave%20%231a%2C%20Mesa%2C%20AZ%2085204!5e0!3m2!1sen!2sus!4v1649281164609!5m2!1sen!2sus"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
     </main>
     <footer>
       <div class="footerTop">
