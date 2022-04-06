@@ -356,6 +356,8 @@ footer {
   font-family: Source Sans Pro;
 }
 
+/* RISK MANAGEMENT */
+
 .riskContent {
   display: grid;
   padding: 1em;
@@ -372,15 +374,13 @@ footer {
   font-family: Source Sans Pro;
 }
 
-/* RISK MANAGEMENT */
-
 /* RECRUITMENT SOLUTIONS */
 
 /* CONTACT US */
 
 #contactImg {
   max-width: 60%;
-  opacity: .6;
+  opacity: 0.6;
   z-index: 1;
   grid-column: 1/3;
   grid-row: 1/4;
@@ -398,7 +398,7 @@ footer {
   grid-template-columns: auto;
 }
 
-#message{
+#message {
   color: black;
   padding: 1em;
   grid-row: 1;
@@ -408,17 +408,21 @@ footer {
   font-size: 11px;
 }
 
-#message, input, textarea {
+#message,
+input,
+textarea {
   justify-items: center;
 }
 
-#contactForm label, input{
+#contactForm label,
+input {
   display: block;
   width: 20em;
   height: 30px;
 }
 
-input, textarea {
+input,
+textarea {
   margin-bottom: 20px;
 }
 
@@ -446,7 +450,7 @@ textarea {
   font-size: 15px;
   font-family: Source Sans Pro;
   color: white;
-  background-color: #2F9C95;
+  background-color: #2f9c95;
   border: none;
 }
 
@@ -461,6 +465,12 @@ textarea {
 #map {
   width: 90%;
   height: 90%;
+}
+
+/* THANK YOU */
+.thankyou{
+  padding: 1em;
+  text-align: center;
 }
 
 /* Tablet View */
@@ -513,7 +523,7 @@ textarea {
   }
   #contactImg {
     max-width: 100%;
-    opacity: .6;
+    opacity: 0.6;
     z-index: 1;
     grid-column: 1/3;
     grid-row: 1/4;
@@ -534,8 +544,8 @@ textarea {
     color: white;
     grid-template-columns: auto auto;
   }
-  
-  #message{
+
+  #message {
     color: white;
     padding: 1em;
     grid-row: 1;
@@ -567,7 +577,12 @@ textarea {
     width: 90%;
     height: 90%;
   }
-  
+
+  /* THANK YOU */
+  .thankyou{
+    padding: 300px 1em;
+    text-align: center;
+  }
 }
 
 /*Desktop View */
@@ -682,7 +697,8 @@ textarea {
   #contactForm {
     grid-template-columns: auto;
   }
-  #contactForm label, input{
+  #contactForm label,
+  input {
     display: block;
     width: 45em;
     height: 30px;
@@ -691,11 +707,12 @@ textarea {
   textarea {
     height: 75px;
   }
-  
-  input, textarea {
+
+  input,
+  textarea {
     margin-bottom: 20px;
   }
-  
+
   textarea {
     width: 45em;
     height: 100px;
@@ -714,5 +731,9 @@ textarea {
     height: 100%;
   }
 
-
+  /* THANK YOU */
+  .thankyou{
+    padding: 1em;
+    text-align: center;
+  }
 }
