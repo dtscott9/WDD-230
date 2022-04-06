@@ -28,7 +28,7 @@ main {
 header {
   display: grid;
   grid-template-rows: auto;
-  background-color: #555;
+  background-color: white;
 }
 .logo {
   display: block;
@@ -253,7 +253,6 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
-  align-items: center;
   text-align: center;
   margin: 10px;
 }
@@ -292,18 +291,23 @@ footer {
   grid-column: 1;
   text-align: center;
   font-size: 45px;
-  color: white;
+  color: black;
 }
 #bannerP2 {
   opacity: 0.6;
 }
 .hrContent {
-  padding: 80px 1em;
-  font-size: 18px;
+  padding: 1em;
+  font-size: 14px;
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto;
   gap: 25px;
   align-items: center;
+  justify-items: center;
+}
+.hrContent img {
+  max-width: 100%;
+  box-shadow: 5px 5px 5px #555;
 }
 
 .hrContent ul li {
@@ -311,34 +315,30 @@ footer {
 }
 
 #payrollBanner {
-  display: grid;
-  grid-template-rows: auto;
-  align-items: center;
-  background-color: #555;
+  background-color: white;
 }
 #payrollBanner img {
   max-width: 100%;
   grid-row: 1/4;
   grid-column: 1;
-  opacity: .6;
+  opacity: 0.6;
   z-index: 1;
 }
 #payrollBanner h1 {
   text-align: center;
   grid-row: 1/4;
   grid-column: 1;
-  color: white;
+  color: black;
   font-size: 45px;
   z-index: 2;
 }
 .payrollContent {
   padding: 80px 1em;
-  width: 70%;
   margin: 0 auto;
-  font-size: 18px;
+  font-size: 14px;
 }
 
-.payrollContent ul li{
+.payrollContent ul li {
   font-family: Source Sans Pro;
 }
 /* EMPLOYEE BENEFITS */
@@ -349,8 +349,49 @@ footer {
 
 /* CONTACT US */
 
+/* Tablet View */
+@media screen and (min-width: 700px) {
+  /* Home */
+  .rowA {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+  }
+  .rowB {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+    margin: 10px;
+  }
+
+  /* HUMAN RESOURCES */
+  header {
+    background-color: #555;
+  }
+  .hr_header {
+    color: white;
+  }
+
+  #payrollBanner {
+    background-color: #555;
+    display: grid;
+    grid-template-rows: auto;
+    align-items: center;
+  }
+
+  #payrollBanner h1 {
+    color: white;
+  }
+}
+
 /*Desktop View */
-@media screen and (min-width: 840px) {
+@media screen and (min-width: 1050px) {
+  /* Home */
+
   .topHeader {
     display: flex;
     flex-direction: row;
@@ -429,4 +470,14 @@ footer {
   }
 
   /* HUMAN RESOURCES */
+
+  .hrContent {
+    grid-template-columns: auto auto;
+    font-size: 18px;
+    padding: 80px 1em;
+  }
+  .payrollContent {
+    font-size: 18px;
+    width: 70%;
+  }
 }
