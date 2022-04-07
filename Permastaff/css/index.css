@@ -55,7 +55,7 @@ header {
   justify-content: space-between;
   padding: 1em;
   align-items: center;
-  grid-row: 1/2;
+  grid-row: 1;
   z-index: 2;
   grid-column: 1;
   background-color: #efefef;
@@ -63,7 +63,7 @@ header {
 }
 .banner {
   width: 100%;
-  grid-row: 1/5;
+  grid-row: 2;
   z-index: 1;
   grid-column: 1;
 }
@@ -323,6 +323,7 @@ footer {
   grid-column: 1;
   opacity: 0.6;
   z-index: 1;
+  display: none;
 }
 #payrollBanner h1 {
   text-align: center;
@@ -376,6 +377,23 @@ footer {
 
 /* RECRUITMENT SOLUTIONS */
 
+
+.personalDev {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 1em;
+    justify-items: center;
+    align-items: center;
+}
+
+.personalDev ul li{
+  font-family: Source Sans Pro;
+}
+
+.personalDev img {
+  max-width: 100%;
+  box-shadow: 5px 5px 5px #555;
+}
 /* CONTACT US */
 
 #contactImg {
@@ -476,6 +494,14 @@ textarea {
 /* Tablet View */
 @media screen and (min-width: 700px) {
   /* Home */
+  .topHeader{
+    grid-row: 1/2;
+  }
+  
+  .banner {
+    grid-row: 1/5;
+  }
+
   .rowA {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -510,6 +536,18 @@ textarea {
   #payrollBanner h1 {
     color: white;
   }
+
+  #payrollBanner img {
+    max-width: 100%;
+    grid-row: 1/4;
+    grid-column: 1;
+    opacity: 0.6;
+    z-index: 1;
+    display: block;
+  }
+
+/* RECRUITMENT SOLUTIONS */
+
   /* CONTACT US */
   #contactForm {
     padding: 0 4em;
@@ -691,6 +729,13 @@ textarea {
     font-size: 20px;
     grid-template-columns: auto auto;
     align-items: center;
+  }
+
+  /* RECRUITMENT SOLUTIONS */
+  .personalDev {
+    grid-template-columns: auto auto;
+    gap: 25px;
+    padding: 80px 1em;
   }
 
   /* CONTACT US */
