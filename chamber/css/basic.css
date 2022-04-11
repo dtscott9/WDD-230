@@ -452,7 +452,7 @@ figcaption {
     #b {
         grid-column: 1/2;
         grid-row: 2/3;
-        width: 100%;
+        width: 245px;
         height: 250px;
         
     }
