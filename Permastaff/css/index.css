@@ -10,8 +10,9 @@ h6 {
   font-family: Oswald;
 }
 
-p {
+p, ul li{
   font-family: Source Sans Pro;
+  line-height: 30px;
 }
 
 body {
