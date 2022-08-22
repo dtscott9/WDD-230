@@ -38,7 +38,7 @@
           </h3>
         </div>
         <img id="contactImg" src="images/phoenixAz.jpg" alt="Contact Us" />
-        <form id="contactForm" action="thankyou.html">
+        <form id="contactForm" action="https://formsubmit.co/dtscott98@gmail.com" method="POST">
           <div id="row1">
             <label for="name">Name<span class="required">*</span></label>
             <input type="text" id="name" name="name" required />
@@ -55,7 +55,8 @@
             <label for="inquiry">How can we help you?</label>
             <textarea name="inquiry" id="inquiry" maxlength="300"></textarea>
             <label for="comments">How did you hear about us?</label>
-            <textarea name="comments" id="comments" maxlength="300"></textarea>
+            <textarea name="referal?" id="comments" maxlength="300"></textarea>
+            <input type="hidden" name="_next" value="thankyou.html"/>
             <input type="submit" id="submit" value="Submit" />
           </div>
         </form>
