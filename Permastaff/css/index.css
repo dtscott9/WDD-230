@@ -418,6 +418,10 @@ footer {
   grid-template-columns: auto;
 }
 
+#honey {
+  display: none;
+}
+
 #message {
   color: black;
   padding: 1em;
